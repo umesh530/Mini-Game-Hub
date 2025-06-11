@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissors</title>
+    <link rel="stylesheet" href="r_style.css">
+</head>
+<body>
+    <h1 id="heading">Rock-Paper-Scissors</h1>
+    <div class="choices">
+        <div class="choice" id="rock">
+            <img src="rock.png" alt="rock">
+        </div>
+        <div class="choice" id="paper">
+            <img src="paper.png" alt="paper">
+        </div>
+        <div class="choice"  id="scissor">
+            <img src="scissor.jpg" alt="scissor">
+        </div>
+    </div>
+    <div class="score-board">
+        <div class="score">
+            <p id="user-score">0</p>
+            <p>You</p>
+        </div>
+        <div class="score">
+            <p id="comp-score">0</p>
+            <p>Comp</p>
+        </div>
+    </div>
+
+    <div class="msg-container">
+        <p id="msg">Play Your Move</p>
+    </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="r_game.js"></script>
+</body>
+</html>
